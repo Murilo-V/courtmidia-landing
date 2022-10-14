@@ -7,6 +7,7 @@ export const NavBarStyle = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 2px solid #edce7e;
 
   img {
     width: 8rem;

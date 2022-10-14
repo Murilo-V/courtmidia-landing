@@ -16,14 +16,32 @@ export const MainStyle = styled.main`
     margin-right: 10vw;
     margin-top: 30vh;
     font-size: 4rem;
-    text-shadow: 5px 5px #000;
+    text-shadow: 5px 5px #2b2b2b;
     color: #edce7e;
+  }
+
+  div {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin-right: 10vw;
+
+    button {
+      background-color: #2b2b2b;
+      color: #edce7e;
+      padding: 1rem 1.5rem;
+      font-size: 1.5rem;
+      cursor: pointer;
+      border-radius: 7px;
+      box-shadow: 5px 5px #edce7e;
+      margin-top: 1rem;
+    }
   }
 
   @media (max-width: 600px) {
     h1 {
       font-size: 1.5rem;
-      text-shadow: 2px 2px #000;
+      text-shadow: 2px 2px #2b2b2b;
     }
   }
 `;

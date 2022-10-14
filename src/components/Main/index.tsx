@@ -6,6 +6,9 @@ export const Main = () => {
       <h1>
         Atinja seu público-alvo com <br /> a Court Mídia.
       </h1>
+      <div>
+        <button type="button">QUERO CONHECER</button>
+      </div>
     </MainStyle>
   );
 };
