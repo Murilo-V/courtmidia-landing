@@ -8,6 +8,9 @@ export const NavBarStyle = styled.nav`
   align-items: center;
   justify-content: space-between;
   border-bottom: 2px solid #edce7e;
+  position: fixed;
+  top: 0;
+  z-index: 7;
 
   img {
     width: 8rem;
