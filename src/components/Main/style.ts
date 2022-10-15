@@ -52,7 +52,7 @@ export const AdvantagesStyle = styled.div`
   h2 {
     font-weight: 700;
     text-align: center;
-    font-size: 2.25rem;
+    font-size: 2.5rem;
   }
 
   section {
@@ -106,10 +106,11 @@ export const PricesStyle = styled.div`
   align-items: center;
   justify-content: start;
   flex-direction: column;
+  padding-bottom: 3rem;
 
   h3 {
     padding: 2rem 0;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   div {

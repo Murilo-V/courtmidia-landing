@@ -37,6 +37,7 @@ export const PlanCard = ({
       >
         <button
           className={number === 1 ? "light-button" : "dark-button"}
+          style={{ marginTop: "2rem" }}
           type="button"
         >
           QUERO ESTE

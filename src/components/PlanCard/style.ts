@@ -16,10 +16,11 @@ export const PlanCardStyle = styled.div<{ number: number }>`
   }
 
   p:first-of-type {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   p {
     margin: 0.25rem;
+    font-size: 1.5rem;
   }
 `;
