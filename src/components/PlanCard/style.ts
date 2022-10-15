@@ -23,4 +23,20 @@ export const PlanCardStyle = styled.div<{ number: number }>`
     margin: 0.25rem;
     font-size: 1.5rem;
   }
+
+  @media (max-width: 900px) {
+    margin: 2rem 0;
+
+    p:first-of-type {
+      font-size: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    button {
+      font-size: 1rem;
+    }
+  }
 `;

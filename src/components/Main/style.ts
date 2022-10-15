@@ -118,4 +118,13 @@ export const PricesStyle = styled.div`
     align-items: center;
     justify-content: center;
   }
+
+  @media (max-width: 900px) {
+    h3 {
+      font-size: 1.5rem;
+    }
+    div {
+      flex-direction: column;
+    }
+  }
 `;
