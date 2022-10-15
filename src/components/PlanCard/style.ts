@@ -21,7 +21,7 @@ export const PlanCardStyle = styled.div<{ number: number }>`
 
   p {
     margin: 0.25rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   @media (max-width: 900px) {
