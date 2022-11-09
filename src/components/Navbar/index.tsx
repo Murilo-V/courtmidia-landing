@@ -9,7 +9,7 @@ export const Navbar = () => {
         <small style={{ color: "#edce7e" }}>Siga-nos nas redes sociais</small>
         <div>
           <a
-            href="https://www.instagram.com/court.midia/"
+            href="https://www.instagram.com/courtmidia/"
             target="_blank"
             rel="noreferrer"
           >
